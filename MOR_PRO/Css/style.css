@@ -1,0 +1,134 @@
+/*Global Style Sheet Start*/
+html, body
+{
+    font-family: "Calibri" , Arial, Helvetica, sans-serif !important;
+    font-size: 18px !important;
+}
+a
+{
+    text-decoration: none !important;
+    outline: none !important;
+}
+a:hover
+{
+    text-decoration: none !important;
+    outline: none !important;
+}
+input, button, h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Calibri' , Arial, Helvetica, sans-serif;
+}
+input
+{
+    font-size: 18px !important;
+}
+header, footer
+{
+    background: #1AB188;
+    text-align: center;
+}
+.top-area
+{
+    min-height: 60px;
+    line-height: 60px;
+}
+.top-area button
+{
+    border-radius: 0px;
+}
+.top-area ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+.top-area ul li
+{
+    padding: 0px 15px;
+}
+.top-area ul li a
+{
+    color: #fff;
+    font-size: 20px;
+}
+.form
+{
+    margin: 30px 0px;
+}
+.form-control
+{
+    height: 40px !important;
+}
+footer
+{
+    color: #fff;
+    line-height: 60px;
+    min-height: 60px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 720px)
+{
+    html, body
+    {
+        font-size: 15px !important;
+    }
+    .top-area ul li
+    {
+        padding: 0px 5px;
+    }
+    .top-area ul li a
+    {
+        color: #333;
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 980px)
+{
+
+}
+.userpageMarginFont
+{
+    margin: 40px;
+    font-size: 20px;
+}
+.dropdownMargin
+{
+    margin-top: 8px;
+}
+.margintop
+{
+    margin-top: -15px !important;
+}
+.marginbottom
+{
+    margin-bottom: 70px !important;
+}
+.mapmargin
+{
+    margin-left: -26px !important;
+}
+.logos
+{
+    border-bottom: 2px solid #1AB188 !important;
+    margin-left: -20px;
+    margin-right: -19px;
+}
+.logo
+{
+    border-bottom: 2px solid #1AB188 !important;
+}
+.sign
+{
+    color: #337ab7 !important;
+}
+.labelFont{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    /* font-weight: 700; */
+}
+
