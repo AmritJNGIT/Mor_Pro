@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MOR_PRO", "MOR_PRO\", "{C23E52DE-890D-455B-B8E8-91606CE7CFEB}"
 	ProjectSection(WebsiteProperties) = preProject

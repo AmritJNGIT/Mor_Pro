@@ -10,18 +10,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
     <link href="Css/style.css" rel="stylesheet" type="text/css" />
-    <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="Css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <script src="Js/jquery.min.js" type="text/javascript"></script>
     <script src="Js/bootstrap.min.js" type="text/javascript"></script>
-
+    <link href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form runat="server" id="form1">
         <telerik:RadScriptManager runat="server"></telerik:RadScriptManager>
-        
+        <telerik:RadStyleSheetManager runat="server" ID="styleSheetManager1">
+            <StyleSheets>
+                <telerik:StyleSheetReference Path="Css/bootstrap.min.css" />
+            </StyleSheets>
+        </telerik:RadStyleSheetManager>
         <div>
             <header>
                 <div class="container top-area">
@@ -35,14 +37,16 @@
                                         <img src="images/logo.png" /></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="current fa fa-home">&nbsp;Home</a>
+                                    <a href="Default.aspx" class="current fa fa-home">&nbsp;Home</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fa fa-sign-in">&nbsp;Job</a>
+                                    <a href="JobReport.aspx" class="fa fa-tasks">&nbsp;Job</a>
                                 </li>
                                 <li>
-                                    <telerik:RadSkinManager ID="RadSkinManager1" Skin="Web20" runat="server" ShowChooser="true" />
+                                     <a href="Login.aspx" class="fa fa-sign-in">&nbsp;Login</a>
                                 </li>
+                               
+
 
 
 
@@ -57,18 +61,19 @@
 
                         </div>
                         <div class="col-xs-8 text-white visible-xs">
-                           
-                            </div>
+                        </div>
                         <div class="text-right col-xs-4 visible-xs text-white top-space">
                             <a href="#" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" class="dropdown-toggle"><i class="fa fa-bars fa-2x"></i></a>
                             <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu3">
                                 <li>
-                                    <a href="#" class="current fa fa-home">&nbsp;Home</a>
+                                    <a href="Default.aspx" class="current fa fa-home">&nbsp;Home</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fa fa-user">&nbsp;Job</a>
+                                    <a href="JobReport.aspx" class="fa fa-tasks">&nbsp;Job</a>
                                 </li>
-
+                                <li>
+                                     <a href="Login.aspx" class="fa fa-sign-in">&nbsp;Login</a>
+                                </li>
                             </ul>
                         </div>
 
